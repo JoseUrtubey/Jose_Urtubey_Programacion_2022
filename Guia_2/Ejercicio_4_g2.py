@@ -1,30 +1,29 @@
 class Calculadora:
-    def __init__(self,n1,n2):
-        self.n1 = int(n1)
-        self.n2 = int(n2)
+    def __init__(self):
+        self.n1 = int(input("Ingrese el valor del numero 1: "))
+        self.n2 = int(input("Ingrese el valor del numero 2: "))
+        self.suma()
+        self.resta()
+        self.multiplicacion()
+        self.division()
 
     def suma(self):
-        res = self.n1 + self.n2
-        print(res)
+        ress = self.n1 + self.n2
+        print(ress)
 
     def resta(self):
-        res = self.n1 - self.n2
-        print(res)
+        resr = self.n1 - self.n2
+        print(resr)
 
     def multiplicacion(self): 
-        res = self.n1 * self.n2
-        print(res)
+        resm = self.n1 * self.n2
+        print(resm)
 
     def division(self):
-        res = self.n1 / self.n2
-        print(res)
+        resd = self.n1 / self.n2
+        print(resd)
 
-n1 = input("Ingrese el valor del numero 1: ")
-n2 = input("Ingrese el valor del numero 2: ")
+
         
-N = Calculadora(n1,n2)
+N = Calculadora()
 
-N.suma()
-N.resta()
-N.multiplicacion()
-N.division()
