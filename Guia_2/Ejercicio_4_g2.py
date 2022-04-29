@@ -15,7 +15,7 @@ class Calculadora:
         resr = self.n1 - self.n2
         print(resr)
 
-    def multiplicacion(self): 
+    def multiplicacion(self):
         resm = self.n1 * self.n2
         print(resm)
 
@@ -24,6 +24,4 @@ class Calculadora:
         print(resd)
 
 
-        
 N = Calculadora()
-
