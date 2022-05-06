@@ -6,6 +6,8 @@ while True:
         print("La dicision es: ", suma)
     except ZeroDivisionError:
         print("Error, no se puede dividir por cero")
+    except ValueError:
+        print("Error, ingrese un numero")
 
     x = input("Desea continuar? (S/N): ")
     if x == "N":
